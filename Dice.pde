@@ -7,7 +7,7 @@ void setup()
   {
     int total = 0; 
     background(154,145,3); 
-      for(int c = 75; c <= 500; c=c+100){
+      for(int c = 50; c <= 500; c=c+51){
         Die joe = new Die(c,50); 
         joe.roll();
         total = total + joe.getRoll(); 
